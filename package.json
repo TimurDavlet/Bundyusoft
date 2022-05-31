@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "parcel ./src/index.html",
     "prebuild": "npx rimraf build",
-    "build": "parcel build --public-url ./ ./src/index.html"
+    "build": "parcel build --public-url ./ ./src/index.html",
+    "test": "npx -n --experimental-vm-modules jest"
   },
   "repository": {
     "type": "git",
