@@ -2,12 +2,11 @@
   "name": "bundyusoft",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "parcel ./src/index.html",
     "prebuild": "npx rimraf build",
-    "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build"
+    "build": "parcel build --public-url ./ ./src/index.html"
   },
   "repository": {
     "type": "git",
